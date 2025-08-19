@@ -241,7 +241,7 @@ func startToWriteReduceResult(results map[string]string, reduceTaskNumber int) (
 		logger(fmt.Sprintf("Worker: %v: cannot signal commiting ReduceTaskNumber: %v. Rollback failed", workerId, reduceTaskNumber), "ERROR")
 		_, _ = rollback(file.Name())
 
-		return false, fmt.Errorf("[Worker: %v]: cannot signal commiting file %v. Rollback", workerId, reduceTaskNumber)
+		return false, fmt.Errorf("[Worker: %v]: cannot signal commiting ReduceTaskNumber %v. Rollback", workerId, reduceTaskNumber)
 	}
 
 	errCloseTransaction := file.Close()
