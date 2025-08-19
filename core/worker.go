@@ -257,7 +257,7 @@ func startToWriteReduceResult(results map[string]string, reduceTaskNumber int) (
 		logger(fmt.Sprintf("Worker: %v: cannot send CompleteMessageForReduceTaskNumber %v. Rollback failed", workerId, reduceTaskNumber), "ERROR")
 		_, _ = rollback(file.Name())
 
-		return false, fmt.Errorf("[Worker: %v]: cannot send result file %v. Rollback", workerId, file.Name())
+		return false, fmt.Errorf("[Worker: %v]: cannot send CompleteMessageForReduceTaskNumber %v. Rollback", workerId, file.Name())
 	}
 
 	return true, nil
