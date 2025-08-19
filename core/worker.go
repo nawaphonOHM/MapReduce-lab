@@ -41,7 +41,7 @@ func Worker(mapf func(string, string) []KeyValue,
 		task := getFileToWork()
 
 		if task == nil || task.JobType == "noWork" {
-			logger(fmt.Sprintf("[Worker: %v]: no task to work. Exist", workerId), "INFO")
+			logger(fmt.Sprintf("[Worker: %v]: no task to work. Exit", workerId), "INFO")
 			break
 		}
 
