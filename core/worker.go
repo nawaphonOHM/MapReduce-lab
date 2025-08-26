@@ -307,7 +307,7 @@ func findTheDistinctName(name string, prefix int, data []*KeyValue) int {
 	index := 0
 
 	if prefix+index >= len(data) {
-		return -1
+		return prefix + index
 	}
 
 	for prefix+index < len(data) && data[prefix+index].Key == name {
