@@ -1,4 +1,4 @@
-package plugin_word_count
+package main
 
 //
 // a word-count application "plugin" for MapReduce.

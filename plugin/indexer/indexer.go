@@ -1,4 +1,4 @@
-package plugin_indexer
+package main
 
 //
 // an indexing application "plugin" for MapReduce.

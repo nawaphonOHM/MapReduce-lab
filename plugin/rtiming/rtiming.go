@@ -1,4 +1,4 @@
-package plugin_rtiming
+package main
 
 //
 // a MapReduce pseudo-application to test that workers

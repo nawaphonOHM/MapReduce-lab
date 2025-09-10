@@ -1,4 +1,4 @@
-package plugin_early_exit
+package main
 
 //
 // a word-count application "plugin" for MapReduce.

@@ -1,4 +1,4 @@
-package plugin_nocrash
+package main
 
 //
 // same as crash.go but doesn't actually crash.

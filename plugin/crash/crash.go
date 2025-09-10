@@ -1,4 +1,4 @@
-package plugin_crash
+package main
 
 //
 // a MapReduce pseudo-application that sometimes crashes,
