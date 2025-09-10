@@ -6,6 +6,8 @@ git clone git://g.csail.mit.edu/6.5840-golabs-2025 6.5840
 
 My implementation locates in `core/*.go`
 
+You can run test by run `test.sh` **assuming your work directory locates root repository's directory**
+
 It intended to have zero dependencies.
 
 A course website: https://pdos.csail.mit.edu/6.824/
