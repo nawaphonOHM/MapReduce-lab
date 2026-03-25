@@ -1,3 +1,5 @@
+[![test_everynight](https://github.com/nawaphonOHM/MapReduce-lab/actions/workflows/test.yml/badge.svg)](https://github.com/nawaphonOHM/MapReduce-lab/actions/workflows/test.yml)
+
 This Repository is for a collection of MapReduce programs. It originally comes from
 
 ```bash
