@@ -532,7 +532,7 @@ func getFileToWork() *ResponseTask {
 	return response
 }
 
-func call(rpcname string, args interface{}, reply interface{}) bool {
+func call(rpcname string, args any, reply any) bool {
 	sockname := coordinatorSock()
 	c, err := rpc.DialHTTP("unix", sockname)
 	if err != nil {
